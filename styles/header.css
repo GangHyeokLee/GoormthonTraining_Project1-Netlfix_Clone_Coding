@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    height: 44px;
+    background-color : var(--header-back-color);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    border-bottom: none;
+}
+
+.header_content{
+    width: 100%;
+    padding: 0 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    box-sizing: border-box;
+}
+
+.header_home{
+    margin-top: 5px;
+}
+
+.header_buttons{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
