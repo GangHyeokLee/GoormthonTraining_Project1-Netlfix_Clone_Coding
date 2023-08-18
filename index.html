@@ -4,10 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Netflix</title>
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -49,20 +52,36 @@
         <section class="content-container">
             <div class="content">
                 <div class="recommended">
+                    <img class="recommended_poster"
+                        src="https://occ-0-1360-2218.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTYlro91BGrH0GMQvIGlL2pIh27lhwHlsTLr1_n18pmE-Q0O0Wn67VrVP4i10G6vvu6mNuOqu2EmLiJcXHcQCtuSA9ilwGh-MLYg.webp?r=55f"
+                        alt="">
                     <div class="recommended_content">
                         <div class="recommended_content-synopsis">
-                            <div class="recommended_content-synopsis-rank">
-                                오늘의 영화 순위 1위
+                            <div class="recommended_content-title">
+                                <img alt="신세계" class="title-logo "
+                                    src="https://occ-0-1360-2218.1.nflxso.net/dnm/api/v6/LmEnxtiAuzezXBjYXPuDgfZ4zZQ/AAAABc3S_cSCFbM1c3pU9hsfB4cHbR25yXx8EJ6Sg8Gb0uYZW-ATCOYmizUgP7X6WmRM0oaaigGG85C_1bk2DJt2nXvOFqzhNNI4i6SWJ49rF_CU.webp?r=02a"
+                                    title="신세계">
                             </div>
                             <div class="recommended_content-synopsis-storyline">
-                                베일에 쌓인 무슨무슨무슨
+                                국내 최대 범죄조작 '골드문'의 후계자 선출에 개입하라! 작전 설계자 강 과장은 8년 전 조직에 심어놓은 이자성을 조종하고, 조직
+                                내에선 후계자 전쟁으로 칼바람이 휘몰아쳤다. 각자가 꿈꿨던 그들의 서로 다른 신세계는 열릴 것인가.
                             </div>
-                        </div>
-                        <div class="recommended_content-buttons">
-                            <button class="play">
-                                재생
-                            </button>
-                            <button class="details">상세정보</button>
+                            <div class="recommended_content-buttons">
+                                <div class="left_button">
+                                    <button class="play">
+                                        ▶ 재생
+                                    </button>
+                                    <button class="details">상세정보</button>
+                                </div>
+                                <div class="right_button">
+                                    <button class="sound">
+                                        소리
+                                    </button>
+                                    <div class="rate">
+                                        연령제한
+                                    </div>
+                            </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -79,6 +98,7 @@
             </div>
         </section>
     </main>
+
 </body>
 
 </html>
