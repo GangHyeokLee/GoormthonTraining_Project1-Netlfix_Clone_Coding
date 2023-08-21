@@ -6,10 +6,7 @@
 
 .content-container{
     width: 100%;
-    display: flex;
-}
-
-.content{
+    /* display: flex; */
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -44,38 +41,57 @@
 
 .recommended_content-synopsis-storyline{
     width: 40%;
+    padding-top: 10px;
     font-size: 17.5px;
 }
 
 .recommended_content-buttons{
     display: flex;
     flex-direction: row;
-    margin-top: 20px;
+    padding: 20px 0px 20px 20px;
+    width: 975px;
+    justify-content: space-between;
+    border: none;
 }
 
 .left_button{
-    width: 40%;
-    left: 0;
+    width: 60%;
+    padding-left: 24px;
 }
 
-.play{
+.left_button-play{
     width: 20%;
     height: 120%;
     font-size: 20px;
     border: none;
+    border-radius:5px;
+    margin-right: 10px;
 }
 
-.details{
+.left_button-details{
     width: 30%;
     height: 120%;
     font-size: 20px;
-    background-color: gray;
-    opacity: 0.7;
+    background-color: rgba(170, 170, 170, 0.7);
     border: none;
-    
+    border-radius:5px;
+    color: white;
 }
 
 .right_button{
-    width: 40%;
-    right: 0;
+    width: 10%;
+    display: flex;
+}
+
+.right_button-sound{
+    width: 200%;
+    border-radius:100%;
+}
+
+.right_button-rate{
+    width: 600%;
+    background-color: gray;
+    opacity: 0.7;
+    text-align: left;
+    align-items: center;
 }

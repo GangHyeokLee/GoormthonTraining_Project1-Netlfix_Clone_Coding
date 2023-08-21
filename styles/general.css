@@ -10,6 +10,7 @@ body{
     flex-direction: column;
     overflow-y: auto;
     background-color: var(--header-back-color);
+    /* overflow: overlay; */
 }
 
 img{
